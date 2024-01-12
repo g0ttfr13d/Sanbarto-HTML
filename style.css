@@ -1,0 +1,82 @@
+body {
+	background-color: Green;
+	margin: 0px;
+}
+
+header {
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.left-header {
+	color: darkgreen;
+	padding-left: 150px;
+}
+
+nav {
+	padding-right: 150px;
+}
+
+nav a {
+	text-decoration: none;
+	padding-right: 50px;
+}
+
+nav a:hover {
+	color: white;
+	background-color: grey;
+	padding: 6px 20px 6px 20px;
+	boerder-radius: 8px;
+}
+
+.hero h1{
+	font-size: 70px;
+}
+.hero {
+	color: whitesmoke;
+	padding-top: 150px;
+	padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#About {
+	color: darkgreen;
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+#About h1 {
+	text-align: center;
+	color: black;
+	padding-bottom: 25px;
+}
+
+#Pelayanan {
+	color: white;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.box {
+	width: 250px;
+	background-color: grey;
+	flex-wrap: wrap;
+}
+
+.box img {
+	padding-left: 25px;
+	padding-top: 10px;
+    border-radius: 12px;
+}
+
+.box h4 {
+	text-align: center;
+	padding-bottom: 10px;
+}
